@@ -92,7 +92,7 @@ const Chat = ({ chatId, user }) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-
+    console.log(message);
     if (!message.trim()) return;
 
     // Emitting the message to the server
